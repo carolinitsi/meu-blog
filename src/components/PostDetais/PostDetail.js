@@ -20,7 +20,7 @@ const PostDetail = ({post}) => {
                 ))
             }
             </div>
-            <Link to={`/posts/${post.id}`} className="btn btn-outline">Ler</Link>
+            <Link to={`/meu-blog/posts/${post.id}`} className="btn btn-outline">Ler</Link>
         </div>
     )
 }

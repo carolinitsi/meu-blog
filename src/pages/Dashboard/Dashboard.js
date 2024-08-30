@@ -21,7 +21,7 @@ const Dashboard = () => {
             {posts && posts.length === 0 ? (
                 <div className={styles.noposts}>
                     <p>Não foram encontradas publicações</p>
-                    <Link to="/posts/create" className="btn">Criar uma publicação</Link>
+                    <Link to="/meu-blog/posts/create" className="btn">Criar uma publicação</Link>
                 </div>
             ) : (
                 <div>

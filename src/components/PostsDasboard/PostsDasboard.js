@@ -31,8 +31,8 @@ const PostsDasboard = ({post}) => {
                 }
                 </div>
                 <div className={styles.buttons}>
-                    <Link to={`/posts/${post.id}`} className="btn btn-outline">Ver</Link>
-                    <Link to={`/posts/edit/${post.id}`} className="btn btn-outline">Editar</Link>
+                    <Link to={`/meu-blog/posts/${post.id}`} className="btn btn-outline">Ver</Link>
+                    <Link to={`/meu-blog/posts/edit/${post.id}`} className="btn btn-outline">Editar</Link>
                     <button onClick={() => modalConfirmaDelete()} className="btn btn-outline btn-danger">Excluir</button>
                 </div>
             </div>
