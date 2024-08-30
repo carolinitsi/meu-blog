@@ -17,7 +17,7 @@ const Home = () => {
         e.preventDefault();
 
         if (query) {
-            return navigate(`/search?q=${query}`);
+            return navigate(`/meu-blog/search?q=${query}`);
         }
     }
     return (
