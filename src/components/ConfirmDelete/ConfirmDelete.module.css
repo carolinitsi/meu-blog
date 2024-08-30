@@ -1,0 +1,26 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.384);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    transition: .4s;
+    position: fixed;
+    z-index: 9;
+}
+
+.modal {
+    background-color: #F6FCFF;
+    width: 400px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.modal button {
+    margin-left: 4px;
+}

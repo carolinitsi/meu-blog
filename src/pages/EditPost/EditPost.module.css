@@ -1,0 +1,20 @@
+.edit_post {
+    text-align: center;
+}
+
+.edit_post p {
+    color: #aaa;
+    margin-bottom: 2em;
+}
+
+.edit_post .preview_title {
+    margin-bottom: .2em;
+    color: #547aca;
+    font-weight: bold;
+}
+
+.preview_image {
+    border-radius: 100%;
+    max-width: 200px;
+    margin-bottom: 1em;
+}
