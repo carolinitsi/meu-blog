@@ -21,7 +21,7 @@ const Search = () => {
             {posts && posts.lenght === 0 && (
                 <>
                     <p>Não foram encontrados resultados para sua busca...</p>
-                    <Link to="/" className="btn btn-dark">Voltar</Link>
+                    <Link to="/meu-blog" className="btn btn-dark">Voltar</Link>
                 </>
             )}
             {posts && posts.map((post) => <PostDetail key={post.id} post={post}/>)}

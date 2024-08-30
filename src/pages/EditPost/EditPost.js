@@ -49,7 +49,7 @@ const EditPost = () => {
 
         //RETORNAR PARA A HOME
 
-        navigate("/dashboard");
+        navigate("/meu-blog/dashboard");
 
         if (formError) return;
 

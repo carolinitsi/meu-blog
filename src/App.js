@@ -49,18 +49,18 @@ function App() {
           {loadingUser && <Loader/>}
           <div className='container'>
             <Routes>
-              <Route path='/meu-blog/' element={<Home/>}/>
+              <Route path='/meu-blog' element={<Home/>}/>
               <Route path='/meu-blog/search' element={<Search/>}/>
               <Route path='/meu-blog/posts/:id' element={<Post/>}/>
 
-              <Route path='/meu-blog/register' element={!user ? <Register/> : <Navigate to="/" />}
+              <Route path='/meu-blog/register' element={!user ? <Register/> : <Navigate to="/meu-blog" />}
               />
-              <Route path='/meu-blog/login' element={!user ? <Login/> : <Navigate to="/" />}
+              <Route path='/meu-blog/login' element={!user ? <Login/> : <Navigate to="/meu-blog" />}
               />
               <Route path='/meu-blog/about' element={<About/>}/>
-              <Route path='/meu-blog/posts/create' element={user ? <CreatePost/> : <Navigate to="/login" />}/>
-              <Route path='/meu-blog/dashboard' element={user ? <Dashboard/> : <Navigate to="/login" />}/>
-              <Route path='/meu-blog/posts/edit/:id' element={user ? <EditPost/> : <Navigate to="/login" />}/>
+              <Route path='/meu-blog/posts/create' element={user ? <CreatePost/> : <Navigate to="/meu-blog/login" />}/>
+              <Route path='/meu-blog/dashboard' element={user ? <Dashboard/> : <Navigate to="/meu-blog/login" />}/>
+              <Route path='/meu-blog/posts/edit/:id' element={user ? <EditPost/> : <Navigate to="/meu-blog/login" />}/>
             </Routes>
           </div>
           <Footer/>

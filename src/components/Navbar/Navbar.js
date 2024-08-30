@@ -21,7 +21,7 @@ const Navbar = () => {
                         <li ><NavLink to="/meu-blog/login" className={({isActive}) => (isActive ? styles.active : "")}>Entrar</NavLink></li>
                     </>
                 )}
-                <li ><NavLink to="/about" className={({isActive}) => (isActive ? styles.active : "")}>About</NavLink></li>
+                <li ><NavLink to="/meu-blog/about" className={({isActive}) => (isActive ? styles.active : "")}>About</NavLink></li>
                 {user && (
                     <>
                         <li ><NavLink to="/meu-blog/posts/create" className={({isActive}) => (isActive ? styles.active : "")}>Publish</NavLink></li>

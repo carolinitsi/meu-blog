@@ -41,7 +41,7 @@ const CreatePost = () => {
 
         //RETORNAR PARA A HOME
 
-        navigate("/");
+        navigate("/meu-blog");
 
 
         if (formError) return;
